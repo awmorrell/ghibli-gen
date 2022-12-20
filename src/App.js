@@ -1,25 +1,26 @@
-import logo from './logo.svg';
+import React, { useState } from 'react';
 import './App.css';
+import Header from './Header.js';
+import {films} from './films.js';
+import HomeCard from './HomeCard.js';
+import FilmCard from './FilmCard.js';
+import Scroll from './Scroll.js';
+import BrowseList from './BrowseList.js';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  const [selectedFilm, setSelectedFilm] = React.useState(films[22]);
+
+    return (
+      <div className="App">
+        <Header />
+        <BrowseList setSelectedFilm={ setSelectedFilm }/>
+          <Scroll>
+            <div className="d-flex justify-content-center mb0">
+              <FilmCard film={ selectedFilm } />
+            </div>
+          </Scroll>
+      </div>
+    );
 }
 
 export default App;

@@ -8,7 +8,6 @@ import {
   MDBRow,
   MDBCol
 } from 'mdb-react-ui-kit';
-import {films} from './films.js';
 import 'tachyons';
 
 

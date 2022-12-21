@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.8b1b5a4e.css",
-    "main.js": "/static/js/main.9d28e1ed.js",
-    "static/js/787.025ca661.chunk.js": "/static/js/787.025ca661.chunk.js",
-    "index.html": "/index.html",
-    "main.8b1b5a4e.css.map": "/static/css/main.8b1b5a4e.css.map",
-    "main.9d28e1ed.js.map": "/static/js/main.9d28e1ed.js.map",
-    "787.025ca661.chunk.js.map": "/static/js/787.025ca661.chunk.js.map"
+    "main.css": "/ghibli-gen/static/css/main.8b1b5a4e.css",
+    "main.js": "/ghibli-gen/static/js/main.548e4804.js",
+    "static/js/787.025ca661.chunk.js": "/ghibli-gen/static/js/787.025ca661.chunk.js",
+    "index.html": "/ghibli-gen/index.html",
+    "main.8b1b5a4e.css.map": "/ghibli-gen/static/css/main.8b1b5a4e.css.map",
+    "main.548e4804.js.map": "/ghibli-gen/static/js/main.548e4804.js.map",
+    "787.025ca661.chunk.js.map": "/ghibli-gen/static/js/787.025ca661.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8b1b5a4e.css",
-    "static/js/main.9d28e1ed.js"
+    "static/js/main.548e4804.js"
   ]
 }

@@ -1,0 +1,25 @@
+Explain the three main ways to apply CSS styles to a web page?
+	
+	1. External stylesheet: You can create a separate CSS file and link to it from your HTML file using a <link> element. This allows you to define styles that can be reused across multiple pages on your website.
+
+	2. Internal stylesheet: You can also define styles within the HTML file itself by using a <style> element in the <head> of the document. This allows you to apply styles to a specific page, but the styles cannot be reused on other pages.
+
+	3. Inline styles: You can apply styles directly to individual elements using the style attribute. This allows you to override any styles that have been defined in an external or internal stylesheet, but it is not considered a good practice as it makes it harder to manage the styles for a website.
+
+Explain an API to someone who doesn't have a technical background.
+	
+	- Essentially, an API is a go-between that allows two different applications to communicate to each other. What’s communicated is data and functionalities. A common example would be getting access to a weather app’s API for your web page, so that the weather is displayed on the frontend.
+
+What are some ways to reduce web application load time?
+	
+	1. Optimize images: Large images can take a long time to load, so it's important to ensure that images are properly optimized for the web. This can be done by compressing images, using the appropriate image file format (e.g., JPEG for photographs and PNG for graphics), and using responsive images (which load different versions of the image depending on the size of the screen).
+
+	2. Use a content delivery network (CDN): A CDN is a network of servers that are distributed around the world. By using a CDN, you can serve your static assets (such as images, CSS, and JavaScript files) from a location that is closer to the user, which can reduce the load time of your web application.
+
+	3. Minify JavaScript and CSS: Minification refers to the process of removing unnecessary characters (such as white space and comments) from code in order to reduce its size. By minifying your JavaScript and CSS, you can reduce the amount of data that needs to be transferred, which can improve load times.
+
+	4. Use asynchronous loading for JavaScript and CSS: By default, the browser blocks the rendering of a page until all of the CSS and JavaScript has been downloaded and parsed. By using asynchronous loading, you can allow the browser to continue rendering the page while the CSS and JavaScript is being downloaded in the background.
+
+	5. Enable caching: Enabling caching allows the browser to store static assets (such as images and CSS files) locally, so that they don't need to be downloaded every time the user visits the page. This can significantly improve the load time of your web application, especially for repeat visitors.
+
+	6. Use a performance-optimized framework or library: There are many frameworks and libraries (such as React, Angular, and Vue.js) that are designed to optimize the performance of web applications. Using one of these frameworks or libraries can help reduce the load time of your web application.

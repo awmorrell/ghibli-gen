@@ -6,7 +6,7 @@ import {films} from './films.js';
 
 const BrowseList = ({ setSelectedFilm }) => {
   return (
-    <select id="drop-box" onChange={e => setSelectedFilm(films[e.target.value])} title="Films">
+    <select id="drop-box" className="align-center" onChange={e => setSelectedFilm(films[e.target.value])} title="Films">
     	<option selected hidden>Select a film</option>
       {films.map((film, index) => (
       	(index < 22 ?

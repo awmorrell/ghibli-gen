@@ -8,16 +8,17 @@ import {
   MDBRow,
   MDBCol
 } from 'mdb-react-ui-kit';
+import './App.css';
 import 'tachyons';
 
 
 const FilmCard = ({ film }) => {
 
     return (
-      <MDBCard style={{ maxWidth: '940px', height: '400px' }} className="baskerville">
+      <MDBCard style={{ maxWidth: '940px', height: '400px' }} className="baskerville tc">
         <MDBRow className='g-0'>
           <MDBCol md='4'>
-            <MDBCardImage style={{ height: '398px' }} className='fl' src={film.image} alt='...' fluid />
+            <MDBCardImage id='film-image' style={{ height: '398px', width: '350px' }} className='fl' src={film.image} alt='...' fluid />
           </MDBCol>
           <MDBCol md='8'>
             <MDBCardBody>

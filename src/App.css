@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  overflow-x: hidden;
 }
 
 .App-link {
@@ -16,7 +17,7 @@ div.dropdown-multicol2{
   width: 30em;
 }
 div.dropdown-multicol2>div.dropdown-col{
-  display:inline-block;
+/*  display:inline-block;*/
   width: 32%;
 }
 
@@ -26,4 +27,22 @@ div.dropdown-multicol2>div.dropdown-col{
 
 #drop-box {
   margin-bottom: 5px;
+  align-items: center;
 }
+
+#banner {
+  display: contents;
+  position: relative;
+}
+
+#header-text {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+#ghibli-logo {
+  object-fit: contain;
+  height: fit-content;
+}
+
